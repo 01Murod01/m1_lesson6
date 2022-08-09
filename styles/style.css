@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1420px;
+    margin-left: 95px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    /* align-items: center; */
+}
+
+.logo {
+    margin: 21px 23px 26px 109px;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_list_item {
+    list-style-type: none;
+    display: flex;
+    padding: 25px 28px 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_list_item_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.header_right_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border: 1px solid #AAAAAA;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 7px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.header_right_link::after {
+    width: 11px;
+    height: 42px;
+    background: #000000;
+}
+
+.header_right_link span {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.header_price_list {
+    display: flex;
+}
+
+.header_price_item {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 29px 28px;
+}
+
+.header_price_item span {
+    font-weight: 400;
+    padding: 0px 5px;
+
+}
+
+.aside_left {
+    position: fixed;
+    width: 75px;
+    height: 1080px;
+    left: 2px;
+    top: -2px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    padding: 160px 0 50px 0;
+
+}
+
+.aside_left img:nth-child(2) {
+    margin: auto;
+}
+
+.aside_image {
+    display: flex;
+    align-items: center;
+}
+
+.aside_right {
+    position: fixed;
+    width: 373px;
+    height: 626px;
+    left: 1539px;
+    top: 113px;
+}
+
+.article {
+    margin-bottom: 56px;
+    margin-top: 30px;
+}
+
+.article .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.yangiliklar_list {
+    width: 364px;
+    height: 649px;
+    background: #F7F7F7;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.yangiliklar_list_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+.yangiliklar_list_title a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #010E38;
+}
+.yangiliklar_list_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 314px;
+    padding: 20px;
+}
+.yangiliklar_list_item :nth-child(1){
+    width: 100%;
+    border-bottom: 1px solid #aaaaaa;
+    /* border: 1px solid #AAAAAA; */
+}
+.yangiliklar_list_item:nth-child(5){
+    padding-bottom: 50px;
+}
+
+.yangiliklar_list_item a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.yangiliklar_list_item p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    padding: 6px 0px;
+    padding-bottom: 10px;
+}
+
+.yangiliklar_list_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 364px;
+    height: 65.43px;
+    background: rgba(1, 14, 56, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.yangiliklar_list_button a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #010E38;
+}
+
+.dolzarb{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dolzarb_top{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.dolzarb_list{
+    /* display: flex; */
+
+}
+.dolzarb_list_item{
+
+}
+.dolzarb_list_item p{
+}
+.dolzarb_list_item a{
+
+}
